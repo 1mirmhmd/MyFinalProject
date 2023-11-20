@@ -8,9 +8,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Abstract
 {
-    //Code Refactoring -> Kod iyileştirilmesi
-    public interface IProductDal : IEntityRepository<Product>
+    public interface IOrderDal:IEntityRepository<Order>
     {
-
     }
 }
